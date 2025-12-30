@@ -117,6 +117,14 @@ function PantallaJuego(props) {
         }}>
           🎮 ¡A Jugar! 🎮
         </h1>
+        <h2 style={{ 
+          textAlign: 'center', 
+          marginBottom: '30px',
+          fontSize: '2rem',
+          color: '#212529'
+        }}>
+          Empieza el jugador {jugadores[Math.floor(Math.random() * jugadores.length)]}
+        </h2>
 
 
         {/* Jugadores */}
